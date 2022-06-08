@@ -1,0 +1,29 @@
+{
+  "name": "river-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttolson-code/river-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttolson-code/river-data/issues"
+  },
+  "homepage": "https://github.com/ttolson-code/river-data#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "node-fetch": "^3.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
